@@ -1,0 +1,139 @@
+.main-form{
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-connexion-inscription{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+.nav-connexion-inscription a{
+    padding: 15px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+.hr-connexion-inscription{
+    margin:20px 5px ;
+}
+
+.nav-connexion.active{
+    color: #ffff !important;
+    background:#dc3545;
+}
+
+.indicateur{
+    color: #dc3545;
+    font-size: 12px;
+}
+form{
+    padding: 25px;
+    width: 100%;
+    border: solid 1px #dc3545;
+    max-width: 400px;
+    
+    
+}
+
+.btn-connextion{
+   outline: none;
+   padding: 10px;
+   width: 100%;
+   margin-top: 5px;
+   color: #25d366;
+}
+.btn-inscription{
+   outline: none;
+   padding: 10px;
+   width: 100%;
+   margin-top: 5px;
+   color: #25d366;
+}
+
+
+
+input, label{
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    margin: 5px 5px 5px 0;
+}
+
+
+
+
+
+form label{
+    text-align: left !important;
+}
+
+form p{
+    font-size: 15px;
+    width: 100%;
+}
+
+form a{
+    color: rgb(66, 139, 202);
+}
+form a:visited{
+    color: rgb(66, 139, 202);
+}
+.group-nameUser{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.group-nameUser .nom {
+    margin-right: 10px;
+}
+
+
+/* media queries */
+@media screen and (max-width:500px){
+
+    .main-form{
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .nav-connexion-inscription{
+        padding-top: 30px;
+        /* padding-bottom: 10px; */
+        text-align: center;
+    }
+
+    .nav-connexion-inscription a{
+        padding: 5px;
+        margin: 5px;
+        border: solid 1px #000;
+    }
+
+    form{
+        padding: 25px;
+        width: 100%;
+        border: solid 1px #dc3545;
+        max-width: 400px;
+        margin-top: 10px;
+        height: 90%;
+        
+        
+        
+    }
+    
+    .login-form{
+        height: 100%;
+        margin-top: 10px;
+        height: 90%;
+    }
+
+}
